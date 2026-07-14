@@ -1,17 +1,30 @@
 {
-  "name": "sass-bem",
+  "name": "@bbt/bem",
+  "private": false,
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "dependencies": {
-    "gulp": "^4.0.2",
-    "gulp-sass": "^4.1.0",
-    "node-sass": "^4.14.1"
+  "description": "SCSS helpers to build strict BEM-compliant selectors",
+  "sass": "./src/bem.scss",
+  "exports": {
+    ".": {
+      "sass": "./src/bem.scss"
+    }
   },
-  "devDependencies": {},
+  "files": [
+    "src/bem.scss"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "MIT"
+  "dependencies": {},
+  "devDependencies": {},
+  "author": "Sergei Maertens",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergei-maertens/bem.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sergei-maertens/bem/issues"
+  },
+  "homepage": "https://github.com/sergei-maertens/bem#readme"
 }
