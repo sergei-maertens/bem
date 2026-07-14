@@ -1,7 +1,7 @@
 {
   "name": "@bbt/bem",
   "private": false,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "SCSS helpers to build strict BEM-compliant selectors",
   "sass": "./src/bem.scss",
   "exports": {

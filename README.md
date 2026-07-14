@@ -1,6 +1,6 @@
 # scss-bem
 
-[![NPM](https://img.shields.io/npm/v/@open-formulieren/formio-renderer.svg)](https://www.npmjs.com/package/@bbt/bem)
+[![NPM](https://img.shields.io/npm/v/@bbt/bem.svg)](https://www.npmjs.com/package/@bbt/bem)
 
 Utility SCSS (sass) helpers to build strict [BEM](https://getbem.com/) selectors.
 
